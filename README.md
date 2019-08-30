@@ -1,3 +1,8 @@
+Pixel Play!
+
+Click a color. Click the blank canvas and make a design. The possibilities are endless!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
