@@ -10,12 +10,12 @@ const Canvas = () => {
   );
 
   return (
-    <div className={"canvas"}>
+    <div className={`canvas`}>
       {matrix.map((row, rowIndex) =>
         row.map((_, colIndex) => {
           return (
             <Pixel
-              key={"${rowIndex}-${colIndex}"}
+              key={`${rowIndex}-${colIndex}`}
               background={Colors[matrix[rowIndex][colIndex]]}
             />
           );
